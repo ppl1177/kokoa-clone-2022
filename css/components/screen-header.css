@@ -5,6 +5,7 @@
   padding: var(--horizontal-space);
   padding-top: 40px;
   opacity: 90%;
+  margin-bottom: 15px;
   }
 
 .screen-header__title {
@@ -12,6 +13,19 @@
   font-weight: 600;
 }
 
-.screen-header__icons span {
+.screen-header__icons {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  width: 150px;
+}
+.screen-header__icons span{
   margin-left: 25px;
+}
+
+.screen-header__icons .badge{
+  display: flex;
+  position: absolute;
+  top: -5px;
+  right: -5px;
 }
