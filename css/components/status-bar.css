@@ -1,9 +1,10 @@
 .status-bar{
-    position: absolute;
+    position: fixed;
     top: 2px;
     display: flex;
     justify-content: center;
-    padding: 5px 3px;
+    padding: 5px 0;
+    padding-bottom: 10px;
     width: 100%;
 }
 .status-bar__column{
@@ -19,7 +20,7 @@
 .status-bar__column:last-child{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
 }
 .status-bar__column .fa-battery-full {
     margin: 0px 5px;
