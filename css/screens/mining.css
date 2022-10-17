@@ -1,25 +1,36 @@
+.icon-row{
+    margin-top: 40px;
+    color: white;
+}
+.icon-row__icon span{
+    margin-top: 30px;
+    opacity: 0.8;
+}
 .recommended-friends{
     margin: 25px 0px;
     padding: 25px 0px;
-    border-top: var(--main-border);
-    border-bottom: var(--main-border);
+    border-top: var(--white-border);
+    border-bottom: var(--white-border);
 
 }
 .recommended-friends__title{
     font-size: 14px;
-    color: var(--mycolor-grey);
+    color: white;
+    opacity: 0.8;
 }
 .recommended-friends span{
     margin: 100px 0;
     display: block;
     text-align: center;
     font-size: 18px;
-    color: var(--mycolor-grey);
+    color: white;
+    opacity: 0.8;
 }
 .open-chat__header{
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+    color: white;
 }
 .open-chat__header h4{
     opacity: 0.6;
@@ -33,18 +44,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: var(--main-border);
+    border-bottom: var(--);
     padding-top: 30px;
     padding-bottom: 30px;
 }
 .open-post__title{
     font-weight: 600;
     margin-bottom: 7px;
+    color: white;
 }
 .open-post__hashtags{
     /* 모든 글자를 소문자에서 대문자로 바꾸는 방법 */
     text-transform: uppercase;
     opacity: 0.6;
+    color: white;
 }
 .open-post__member{
     display: flex;
@@ -60,6 +73,7 @@
 .open-post__member-count{
     opacity: 0.5;
     font-size: 14px;
+    color: white;
 }
 .open-post__member .divider{
     width: 2px;
@@ -77,6 +91,7 @@
     width: 120px;
     height: 120px;
     border-radius: 10px;
+    background-color: var(--yellow);
 }
 .open-post__heart-count{
     background-color: rgba(0, 0, 0, 0.5);

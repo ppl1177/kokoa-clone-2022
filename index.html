@@ -5,40 +5,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kokoa Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/98c458c642.js" crossorigin="anonymous"></script>
+    <title>Tesla Trading Center - Buy New Generation Dollor</title>
 </head>
-<body>         
+<body>
         <div class="status-bar">
             <div class="status-bar__column">
-              <span>No Service</span>
-              <i class="fas fa-wifi"></i>
+              <span>Connected</span>
+              <i class="fa-sharp fa-solid fa-circle-dot fa-lg"></i>
+              <i class="fa-solid fa-location-dot fa-lg"></i>
             </div>
             <div class="status-bar__column">
-              <span>18:43</span>
+  
             </div>
             <div class="status-bar__column">
-              <span>110%</span>
-              <i class="fas fa-battery-full fa-lg"></i>
-              <i class="fas fa-bolt"></i>
+              <i class="fa-solid fa-battery-half"></i>
+              <i class="fa-solid fa-bolt"></i>
             </div>
           </div>
 
     <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-        <p class="welcome-header__text">If you have a Kokoa Account, log in with your email or phone number</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Tesla_Motors.svg/279px-Tesla_Motors.svg.png?20220430025811">
+        <p class="welcome-header__text">Buy, trade, and hold Many cryptocurrencies on Tesla Trading Center</p>
     </header>
     
-    <form action="friends.html" method="get" id="login-form">
-        <input name="username" type="text" placeholder="Email or phone number"/>
+    <form action="home.html" method="get" id="login-form">
+        <input name="username" type="text" placeholder="Email / Phone Number"/>
         <input name="password" type="password" placeholder="Password"/>
-        <input type="submit" placeholder="Log In"/>
-        <a href="#">Fine Kakao Account or Password</a>
+        <div>
+          <input type="submit" value="Login"/>
+          <div>
+            <a href="#">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/2048px-Google_%22G%22_Logo.svg.png">
+              <span>Google</span>
+            </a>
+            <a href="#">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/488px-Apple_logo_black.svg.png?20220821121934">
+              <span>Apple</span>
+            </a>
+          </div>
+        </div>
+        <a id="createAccountLink" href="#">Create a Tesla Trading Center Account</a>
     </form>
-    <div id="no-mobile">
-      <span>Your screen is too big www</span>
-    </div>
-        <script src="https://kit.fontawesome.com/6478f529f2.js"
-        crossorigin="anonymous">
-        </script>
 </body>
 </html>

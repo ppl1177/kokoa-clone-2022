@@ -7,10 +7,20 @@
   opacity: 90%;
   margin-bottom: 15px;
   }
+.screen-header img{
+  width: 35px;
+  height: 35px;
+  margin-right: 20px;
+}
+.screen-header div:first-child{
+  display: flex;
+  align-items: center;
+}
 
 .screen-header__title {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 600;
+  color: white;
 }
 
 .screen-header__icons {
@@ -18,6 +28,8 @@
   position: relative;
   justify-content: flex-end;
   width: 150px;
+  color: white;
+  font-size: 20px;
 }
 .screen-header__icons span{
   margin-left: 25px;
@@ -27,7 +39,7 @@
   display: flex;
   position: absolute;
   top: -5px;
-  right: -5px;
+  right: 42px;
 }
 @keyframes rotateCog {
   from{
