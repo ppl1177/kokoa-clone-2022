@@ -29,52 +29,78 @@
           <header class="screen-header">
             <div>
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Tesla_T_symbol.svg/800px-Tesla_T_symbol.svg.png">
-              <h1 class="screen-header__title">Chat</h1>
+              <h1 class="screen-header__title">My Wallet</h1>
             </div>
 
             <div class="screen-header__icons">
                 <div class="badge"></div>
                 <span><i class="fa-regular fa-message"></i></span>
                 <span>
-                    <a href="settings.html">
-                        <i class="fas fa-cog fa-lg"></i>
-                    </a>
-                </span>
+                  <a href="settings.html">
+                      <i class="fas fa-cog fa-lg"></i>
+                  </a>
+              </span>
             </div>
         </header>
 
+        <a id="home-display-link">
+            <i class="fas fa-info-circle"></i> 
+            Currently, cryptocurrency transactions are not possible. 
+        </a>
+
         <main class="home-screen">
-            <a href="innerChat.html">
-                <div class="user-component">
-                    <div class="user-component__column">
-                        <img src="https://img.wowtv.co.kr/wowtv_news/dnrs/20211229/B20211229093341447.jpg" 
-                        class="user-component__avatar user-component__avatar"/>
-                        <div class="user-component__text">
-                            <h4 class="user-component__title">Elon Musk</h4>
-                            <h6 class="user-component__subtitle">Please check Your Twitter Account!!!</h6>
-                        </div>
-                    </div>
-                    <div class="user-component__column">
-                        <span class="user-component__time">22:22</span>
-                        <div class="badge">1</div>
-                    </div>
+
+            <div class="myWallet">
+
+                <div class="myWallet-title">
+                  <span class="myWallet-title__title">My assets</span>
+                  <div>
+                    <span>Estimated value of KRW</span><i class="fa-regular fa-circle-question"></i>
+                  </div>
                 </div>
-            </a>
-            <a href="innerChat2.html">
-                <div class="user-component">
-                    <div class="user-component__column">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Anonymous_emblem.svg/640px-Anonymous_emblem.svg.png" 
-                        class="user-component__avatar user-component__avatar"/>
-                        <div class="user-component__text">
-                            <h4 class="user-component__title">Anonymous</h4>
-                            <h6 class="user-component__subtitle">We are Anonymous....</h6>
-                        </div>
-                    </div>
-                    <div class="user-component__column">
-                        <span class="user-component__time">13:22</span>
-                    </div>
+
+                <div class="myWallet-info">
+                  <div class="myWallet-info__span">
+                    <span>My KRW</span>
+                    <span>0</span>
+                  </div>
+                  <div class="myWallet-info__span">
+                    <span>Total Assets</span>
+                    <span>0</span>
+                  </div>
                 </div>
-            </a>
+
+                <div class="myWallet-detail">
+                  <div class="myWallet-detail__box">
+                    <div>
+                      <span>Total Purchase</span>
+                      <span>0</span>
+                    </div>
+                    <div>
+                      <span>Total Amount</span>
+                      <span>0</span>
+                    </div>
+                  </div>
+
+                  <div class="myWallet-detail__box">
+                    <div>
+                      <span>Evaluation profit and loss</span>
+                      <span>-</span>
+                    </div>
+                    <div>
+                      <span>Earnings rate</span>
+                      <span>0</span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="portpol">
+              <span>Asset Portfolio</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+            <div class="doge-img">
+              <img src="https://i.imgur.com/iMU2ytU.png">
+            </div>
         </main>
         
 
