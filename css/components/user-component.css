@@ -59,6 +59,14 @@
   opacity: 0.5;
   margin-bottom: 10px;
 }
+.user-component .fa-medal{
+  margin-top: 8px;
+  margin-right: 10px;
+  color: #c8ab2b;
+}
+.user-component__text div{
+  display: flex;
+}
 
 @keyframes delete{
   from{
